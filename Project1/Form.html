@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Question Form</title>
+        <link rel="stylesheet" type="text/css" href="styleForm.css">
+    </head>
+    <body>
+        <h1>Please fill out this form to give us feedback of your experience with our website</h1>
+        <p><em>It will only take you a couple of minutes, thank you in advance</em></p>
+        <form method="post" action="ConfirmationPage.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <p class="info">Fill these fields with information about yourself. The information you provide will only be used for research purposes.</p>
+                <label>Name:</label>
+                <input name="Name of person" type="text" size="30" maxlength="50" required><br><br>
+                <label id="age">Age:</label>
+                <input name="Age" type="number" required><br><br>
+                <label id="email">Email:</label>
+                <input name="Email" type="email" size="30" maxlength="50"><br><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Rate our site</legend>
+                <p class="info">Choose one of the 5 options to give us feedback about the implementation of our site</p>
+                <p>
+                    How would you rate the design of the website?<br>
+                    <input name="Design" type="radio" value="1"><label>Very Bad</label>
+                    <input name="Design" type="radio" value="2"><label>Bad</label>
+                    <input name="Design" type="radio" value="3"><label>Average</label>
+                    <input name="Design" type="radio" value="4"><label>Good</label>
+                    <input name="Design" type="radio" value="5"><label>Very Good</label>
+                </p>
+                <p>
+                    How would you rate the dynamic links and elements of the website?<br>
+                    <input name="Dynamic" type="radio" value="1"><label>Very Bad</label>
+                    <input name="Dynamic" type="radio" value="2"><label>Bad</label>
+                    <input name="Dynamic" type="radio" value="3"><label>Average</label>
+                    <input name="Dynamic" type="radio" value="4"><label>Good</label>
+                    <input name="Dynamic" type="radio" value="5"><label>Very Good</label>
+                </p>
+                <p>
+                    How would you rate the navigation through the pages of the website?<br>
+                    <input name="Navigation" type="radio" value="1"><label>Very Bad</label>
+                    <input name="Navigation" type="radio" value="2"><label>Bad</label>
+                    <input name="Navigation" type="radio" value="3"><label>Average</label>
+                    <input name="Navigation" type="radio" value="4"><label>Good</label>
+                    <input name="Navigation" type="radio" value="5"><label>Very Good</label>
+                </p>
+            </fieldset><br>
+            <fieldset>
+                <legend>Further improvements</legend>
+                <p class="info">Please provide information on what you'd like changed about the site the most</p>
+                <select name="Improvement">
+                    <option selected>Design</option>
+                    <option>Dynamic elements</option>
+                    <option>Navigation</option>
+                    <option>Links to other websites</option>
+                    <option>Other</option>
+                </select><br><br>
+                <textarea placeholder="Enter your details on what specific changes you'd personally like" rows="7" cols="50"></textarea>
+            </fieldset><br>
+            <input name="Submit" type="submit" value="Submit form">
+        </form>
+    </body>
+</html>

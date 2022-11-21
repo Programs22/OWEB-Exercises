@@ -1,0 +1,22 @@
+body {
+    background-color: rgb(234, 250, 255);
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+a:visited {
+    font-style: italic;
+    color: rgb(159, 17, 159)
+}
+
+img {
+    float: right;
+    border-radius: 5px;
+}
