@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(234, 250, 255);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+div {
+    width: 300px;
+    height: 480px;
+    margin: auto;
+    border: solid 1px black;
+}
+
+div#Second {
+    width: 300px;
+    height: 430px;
+    margin: auto;
+    border: solid 1px black;
+}
+
+div#Third {
+    width: 350px;
+    height: 430px;
+    margin: auto;
+    border: solid 1px black;
+    visibility: hidden;
+}
+
+div#Fourth {
+    width: 250px;
+    height: 530px;
+    margin: auto;
+    border: solid 1px black;
+    visibility: hidden;
+}
+
+img {
+    width: 300px;
+    height: 400px;
+}
+
+img#Second {
+    width: 300px;
+    height: 350px;
+}
+
+img#Third {
+    width: 350px;
+    height: 350px;
+}
+
+img#Fourth {
+    width: 250px;
+    height: 450px;
+}
+
+img#outline1, img#outline2, img#outline3, img#outline4 {
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-left: 5px;
+}
+
+img#comment {
+    width: 40px;
+    height: 40px;
+    float: right;
+    margin-right: 5px;
+}
+
+label {
+    float: left;
+    margin-left: 5px;
+    margin-top: 10px;
+}
+
+button {
+    height: 28px;
+    background-color: rgb(181, 236, 253);
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 3px;
+    border-color: royalblue;
+}
+
+p {
+    float: left;
+}
