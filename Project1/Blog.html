@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blog</title>
+        <link rel="stylesheet" type="text/css" href="styleBlog.css">
+        <script lang="JavaScript" src="dynamicBlogInformation.js"></script>
+    </head>
+    <body>
+        <h1>Write your own blog here</h1><br>
+        <div>
+            <form method="post" action="PostedBlog.html">
+                <label>Here are some prepared topics for you to continue writing on:</label><br>
+                <p>
+                    <input name="Choice" type="radio" onclick="post(1)"><label>Recipes</label>
+                    <input name="Choice" type="radio" onclick="post(2)"><label>Music</label>
+                    <input name="Choice" type="radio" onclick="post(3)"><label>Movies</label>
+                    <input name="Choice" type="radio" onclick="post(4)"><label>Sports</label>
+                    <input name="Choice" type="radio" onclick="post(5)"><label>Technology</label>
+                </p>
+                <input name="Date" type="date"><br><br>
+                <textarea id="blog" placeholder="Write your blog here" rows="22" cols="150"></textarea><br><br>
+                <input name="Post" type="submit" value="Post your blog">
+            </form>
+        </div>
+    </body>
+</html>
