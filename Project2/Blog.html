@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Blog</title>
+        <link rel="stylesheet" type="text/css" href="styleBlog.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script lang="JavaScript" src="dynamicBlogInformation.js"></script>
+    </head>
+    <body>
+        <button>Homepage</button>
+        <button>Favourites</button>
+        <button>Question form</button>
+        <button>Write a blog</button>
+        <button>Mini Instagram</button>
+        <h1>Write your own blog here</h1><br>
+        <div>
+            <form method="post" action="PostedBlog.html">
+                <label>Here are some prepared topics for you to continue writing on:</label><br>
+                <p>
+                    <input name="Choice" type="radio"><label>Recipes</label>
+                    <input name="Choice" type="radio"><label>Music</label>
+                    <input name="Choice" type="radio"><label>Movies</label>
+                    <input name="Choice" type="radio"><label>Sports</label>
+                    <input name="Choice" type="radio"><label>Technology</label>
+                </p>
+                <input name="Date" type="date"><br><br>
+                <textarea id="blog" placeholder="Write your blog here" rows="22" cols="150"></textarea><br><br>
+                <input name="Post" type="submit" value="Post your blog">
+            </form>
+        </div>
+    </body>
+</html>

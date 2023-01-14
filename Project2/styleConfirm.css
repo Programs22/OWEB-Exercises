@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(234, 250, 255);
+    text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+a:visited {
+    color: rgb(159, 17, 159)
+}
